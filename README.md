@@ -1,4 +1,4 @@
-# This is a Github-Codespace Example of a Docker Containerized Spring Boot Application
+# Github-Codespace of a Spring Boot Application (web & PostgreSQL), <br/>  Containerized by Docker (Dockerfile & compose.yaml)
 <br/>
 <br/>
   
