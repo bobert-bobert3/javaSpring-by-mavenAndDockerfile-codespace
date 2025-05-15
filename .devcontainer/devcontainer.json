@@ -1,0 +1,41 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-in-docker
+{
+	"name": "Docker in Docker",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	//"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"image": "openjdk:11",
+
+	
+	
+	/*
+	 Originally, a different default image (base image) was used, for this codespace. The
+	 original image was determined by the below commented out properties: "name", "dockerComposeFile", and "service".
+	 
+	 However, once I figured out how to configure pairs of "Dockerfile" and "compose.yaml"
+	 files, outside of the codespace's ".devcontainer" folder, I preferred that approach.
+	 That is, the preference was to use a folder named "my-images" vs. the codespace's
+	 ".devcontainer" folder.
+	*/
+	
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "latest",
+			"enableNonRootDocker": "true",
+			"moby": "true"
+		}
+	}
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "docker --version",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
