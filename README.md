@@ -1,8 +1,8 @@
-## Github-Codespace of a Spring Boot Application (web & PostgreSQL), <br/>  Containerized by Docker (Dockerfile & compose.yaml)
-<br/>
-<br/>
-  
-### Kickstart Your Spring Boot Application Development
+# Github-Codespace of a Spring Boot Application (web & PostgreSQL)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Containerized by Docker (Dockerfile & compose.yaml)<br/>
+### 1) Create (stub out) your Java Spring Web Application<br/>
+   - ##### Goto [Spring Boot Initializer](https://start.spring.io/) (https://start.spring.io/)</br>and Select the following:
+     <details open><summary>Example Spring-Initializr Screen Shot</summary><IMG src="./html/images/Spring-Initializr.png"  alt="Spring-Initializr.png"/></details>
 
-- Basic setup instructions
-   - https://www.docker.com/blog/kickstart-your-spring-boot-application-development/
+### 2) Extract the zip file created by Spring Boot Initiliazr and upload here<br/>
+
+ 
