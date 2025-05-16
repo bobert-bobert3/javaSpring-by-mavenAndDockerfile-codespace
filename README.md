@@ -16,6 +16,11 @@
             - Spring Web
 
 
+
+### 2) Create your Java Spring Web Application<br/>
+
+![Spring Initializr image](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+
 ### Kickstart Your Spring Boot Application Development
 
 - Basic setup instructions
